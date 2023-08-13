@@ -1,0 +1,15 @@
+{
+  "name": "dualtoken-nodejs",
+  "version": "1.0.0",
+  "description": "NodeJS MediaCDN Dual-token Authentication Token Generator",
+  "main": "index.js",
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "keywords": [
+    "MediaCDN",
+    "TokenAuth"
+  ],
+  "author": "CDN guy",
+  "license": "MIT"
+}
