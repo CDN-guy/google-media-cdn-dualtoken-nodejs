@@ -14,7 +14,7 @@ const session_id = "test-id";
 
 //
 // call sign_token to generate token
-console.log(
+process.stdout.write(
   sign_token({
     base64_key: "DJUcnLguVFKmVCFnWGubG1MZg7fWAnxacMjKDhVZMGI=",
     start_time: start_time,

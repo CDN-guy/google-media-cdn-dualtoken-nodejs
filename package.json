@@ -15,5 +15,13 @@
     "TokenAuth"
   ],
   "author": "CDN guy",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "c8 mocha test/*_test.js"
+  },
+  "devDependencies": {
+    "c8": "^8.0.0",
+    "mocha": "^10.2.0",
+    "chai": "^4.3.7"
+  }
 }
