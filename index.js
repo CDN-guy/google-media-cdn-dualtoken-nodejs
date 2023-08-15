@@ -1,4 +1,4 @@
-const sign_token = require("./dualtoken.js");
+const {sign_token} = require("./dualtoken.js");
 
 // set token generator parameters
 const start_time = new Date("2022-09-13T00:00:00Z");

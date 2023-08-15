@@ -136,5 +136,5 @@ function sign_token({
   return tokens.join("~");
 }
 
-module.exports = sign_token;
+module.exports.sign_token = sign_token;
 // [END mediacdn_dualtoken_sign_token]
