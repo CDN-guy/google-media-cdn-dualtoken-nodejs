@@ -14,7 +14,7 @@ const session_id = "test-id";
 
 //
 // call sign_token to generate token
-process.stdout.write(
+console.log(
   sign_token({
     base64_key: "DJUcnLguVFKmVCFnWGubG1MZg7fWAnxacMjKDhVZMGI=",
     start_time: start_time,
@@ -25,7 +25,7 @@ process.stdout.write(
     data: data,
     headers: headers,
     ip_ranges: ip_ranges,
-  }),
+  })
 );
 // console.log(sign_token({base64_key:"g_SlMILiIWKqsC6Z2L7gy0sReDOqtSrJrE7CXNr5Nl8=", start_time:start_time, expiration_time:exp_time, signature_algorithm:'sha256', path_globs:"/*",session_id: session_id, data: data, headers: headers, ip_ranges: ip_ranges }))
 //console.log(sign_token({base64_key:"g_SlMILiIWKqsC6Z2L7gy0sReDOqtSrJrE7CXNr5Nl8=", start_time:start_time, expiration_time:exp_time, signature_algorithm:'sha1', path_globs:"/*", session_id: session_id, data: data, headers: headers, ip_ranges: ip_ranges }))
