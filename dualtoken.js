@@ -17,7 +17,7 @@ const crypto = require("crypto");
  * @param {Array} headers
  * @param {string} ip_ranges
  */
-function sign_token({
+module.exports.sign_token = function ({
   base64_key,
   signature_algorithm,
   start_time,
@@ -135,6 +135,4 @@ function sign_token({
   }
   return tokens.join("~");
 }
-
-module.exports.sign_token = sign_token;
 // [END mediacdn_dualtoken_sign_token]
